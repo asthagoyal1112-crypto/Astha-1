@@ -1,0 +1,19 @@
+# Marketing Campaign Response Prediction Using Machine Learning
+# Install with:  pip install -r requirements.txt
+#
+# The app was tested with two environments:
+#   older : streamlit 1.40, pandas 2.2, numpy 1.26, scikit-learn 1.5, plotly 5.24, xgboost 2.1
+#   newer : streamlit 1.64, pandas 3.0, numpy 2.4, scikit-learn 1.8, plotly 7.1, xgboost 3.4
+# Both gave matching model results.
+
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+matplotlib>=3.7
+seaborn>=0.12
+streamlit>=1.40
+plotly>=5.24
+xgboost>=2.1
+
+# ---- Optional (the app runs without it; install for the SHAP explainability tab) ----
+# pip install shap
